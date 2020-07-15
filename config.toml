@@ -2,3 +2,20 @@ baseURL = "https://vreamer.github.io/"
 languageCode = "en-us"
 title = "Yifeng's Blog"
 theme = "hugo-vitae"
+
+copyright = "© Copyright notice | [vreamer](https://github.com/veamer/vreamer.github.io)"
+
+
+[params]
+    subtitle = "Yifeng is a software and koala enthusiast. Why? Because Yifeng wants to develop software while still have the same sleep quality as a koala."
+    avatar = "/img/avatar-koala.jpg"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 2
